@@ -3,6 +3,7 @@
 @font-face {
     font-family: Socialico;
     src: url(socialico.ttf);
+    src: url(socialico.woff);
 }
 
 .container {
@@ -28,7 +29,7 @@
 }
 
 .header_content {
-    list-style-image: url(/img/check_icon.png);
+    list-style-image: url(img/check_icon.png);
     font-size: 20px;
     line-height: 30px;
     margin-left: 50px;
@@ -94,8 +95,8 @@
     line-height: 24px;
 }
 
-.content_item img {
-    width: 50px;
+.content_item > div {
+    -ms-flex-item-align: start;
     align-self: flex-start;
     margin-top: 6px;
 }
@@ -133,7 +134,7 @@
 
 }
 
-.screenshot_item div {
+.article-content {
     margin-bottom: 30px;
     padding: 0 15px;
     color: #333333;
@@ -147,7 +148,7 @@
     line-height: 30px;
 }
 
-.screenshot_item img {
+.article_image {
     align-self: flex-start;
 }
 
@@ -293,7 +294,7 @@
 }
 
 .buy_it_now button:hover {
-    background-color: #f5f5f5a2;
+    background-color: rgba(245, 245, 245, 0.635);
 }
 
 .contacts {
@@ -351,7 +352,7 @@
 }
 
 .contacts input[type="submit"]:hover {
-    background-color: #f5f5f5a2;
+    background-color: rgba(245, 245, 245, 0.635);
 }
 
 .contacts>div {
@@ -393,7 +394,7 @@
 }
 
 .footer {
-    width: 284px;
+    width: 288px;
     color: #445162;
     font-size: 12px;
     font-weight: 400;
