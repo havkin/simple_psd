@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: Socialico;
-    src: url(socialico.ttf);
-    src: url(socialico.woff);
+    src: url(fonts/socialico.ttf);
+    src: url(fonts/socialico.woff);
 }
 
 .container {
@@ -12,6 +12,7 @@
     margin: 0 auto;
     background-color: #f5f5f5;
     font-family: Arial, sans-serif;
+    font-size: 20px;
 }
 
 .header {
@@ -25,12 +26,11 @@
 }
 
 .header h1 {
-    font-size: 60px;
+    font-size: 3em;
 }
 
 .header_content {
     list-style-image: url(img/check_icon.png);
-    font-size: 20px;
     line-height: 30px;
     margin-left: 50px;
     margin-top: 50px;
@@ -53,7 +53,7 @@
 }
 
 .about h2 {
-    font-size: 30px;
+    font-size: 1.5em;
     margin-bottom: 30px;
 }
 
@@ -78,7 +78,7 @@
 .pluses h2 {
     width: 360px;
     color: #445161;
-    font-size: 30px;
+    font-size: 1.5em;
     line-height: 36px;
     margin: 0 auto;
 }
@@ -105,7 +105,7 @@
 .content_item p {
     color: #333333;
     font-size: 16px;
-    margin-left: 9px;
+    margin-left: 0.8em;
     padding-right: 16px;
     text-align: justify;
 }
@@ -120,7 +120,7 @@
     height: 22px;
     margin: 0 auto 35px;
     color: #445161;
-    font-size: 30px;
+    font-size: 1.5em;
     line-height: 36px;
 }
 
@@ -146,7 +146,7 @@
 
 .screenshot_item h3 {
     color: #445161;
-    font-size: 24px;
+    font-size: 1.2em;
     line-height: 30px;
 }
 
@@ -177,7 +177,7 @@
 .reviews h2 {
     width: 111px;
     color: #445161;
-    font-size: 30px;
+    font-size: 1.5em;
     line-height: 36px;
     margin: 0 auto;
 }
@@ -230,7 +230,7 @@
 .buy_it_now h2 {
     width: 140px;
     color: #445161;
-    font-size: 30px;
+    font-size: 1.5em;
     line-height: 36px;
     margin: 0 auto 29px;
 }
@@ -252,7 +252,7 @@
     width: 90px;
     margin: 16px auto;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 1.2em;
 }
 
 .premium {
@@ -266,7 +266,7 @@
     width: 90px;
     margin: 16px auto;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 1.2em;
 }
 
 .lux {
@@ -280,7 +280,7 @@
     width: 38px;
     margin: 16px auto;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 1.2em;
 }
 
 .price {
@@ -289,7 +289,7 @@
     margin-left: 2px;
     background-color: #fff;
     color: #445162;
-    font-size: 40px;
+    font-size: 2em;
     text-align: center;
     padding: 18px 0px;
 }
@@ -329,7 +329,7 @@
 .contacts h2 {
     width: 117px;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 1.5em;
     line-height: 36px;
     margin: 0 auto 30px;
 }
@@ -411,7 +411,7 @@
 .social_btn {
     color: #ffffff;
     font-family: Socialico;
-    font-size: 60px;
+    font-size: 3.75em;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 1.5px;
@@ -481,6 +481,9 @@
 }
 
 @media (max-width: 576px) {
+    .container {
+        font-size: 16px;
+    }
     .screenshot_item {
         flex-direction: column;
         align-items: center;
