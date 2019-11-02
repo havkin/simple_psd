@@ -358,9 +358,22 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    width: 500px;
+    width: 380px;
     height: 40px;
     margin-bottom: 21px;
+    padding-left: 9px;
+}
+
+input[type="date"] {
+    width: 200px;
+}
+
+form label {
+    display: inline-block;
+    width: 100px;
+    color: #fff;
+    font-size: 16px;
+    text-align: right;
 }
 
 .contacts textarea {
@@ -376,17 +389,20 @@
     font-family: Arial, sans-serif;
 }
 
-.contacts input[type="submit"] {
+.submit_reset {
+    text-align: center;
+}
+
+.submit_reset input {
     width: 140px;
-    display: block;
-    margin: 0 auto;
+    margin: 0 10px;
     color: #445162;
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.contacts input[type="submit"]:hover {
+.submit_reset input:hover {
     background-color: rgba(245, 245, 245, 0.635);
 }
 

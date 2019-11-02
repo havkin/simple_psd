@@ -252,10 +252,29 @@
             <h2>Contacts</h2>
             <div>
                 <form action="#">
-                    <input type="text" placeholder="Your name:">
-                    <input type="email" placeholder="Your email:">
-                    <textarea name="#" placeholder="Your message:"></textarea>
-                    <input type="submit" value="send">
+                    <label for="name">Your name:</label>
+                    <input type="text" 
+                            id="name" 
+                            placeholder="John" 
+                            pattern="^([A-Za-z]+)$"
+                            autofocus required>
+                    <label for="email">Your email:</label>
+                    <input type="email" 
+                            id="email" 
+                            placeholder="email@server.com">
+                    <label for="phone">Your phone:</label>
+                    <input type="tel" 
+                            id="phone" 
+                            placeholder="your phone number">
+                    <label for="birthday">Your birthday: </label>
+                    <input type="date" 
+                            id="birthday">
+                    <textarea name="#" 
+                            placeholder="Your message:"></textarea>
+                    <div class="submit_reset">
+                        <input type="submit" value="send">
+                        <input type="reset" value="reset">
+                    </div>
                 </form>
                 <div class="contacts_items">
                     <div>
