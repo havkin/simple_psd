@@ -8,7 +8,6 @@
 
 .container {
     max-width: 1280px;
-    min-width: 500px;
     margin: 0 auto;
     font-family: Arial, sans-serif;
     font-size: 20px;
@@ -36,8 +35,8 @@
 }
 
 .shape9 {
-    width: 469px;
-    height: 214px;
+    width: 23.45em;
+    height: 10.7em;
     background-color: #ffffff;
 }
 
@@ -45,11 +44,11 @@
     padding: 50px;
     background-color: #fff;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     color: #445161;
     font-weight: 400;
 }
+
 
 .about h2 {
     font-size: 1.5em;
@@ -65,8 +64,8 @@
 }
 
 .video {
-    width: 430px;
-    height: 242px;
+    width: 21.5em;
+    height: 12.1em;
     background-color: #445161;
 }
 
@@ -132,7 +131,7 @@
 
 .screenshot_item {
     display: flex;
-    width: 590px;
+    max-width: 590px;
 
 }
 
@@ -347,7 +346,7 @@
 }
 
 .contacts form {
-    width: 500px;
+    max-width: 500px;
     margin-bottom: 30px;
 }
 
@@ -456,7 +455,35 @@ form label {
     margin: 0 auto;
 }
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    .screenshots_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pluses_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about h2 {
+        text-align: center;
+    }
+
+    .video {
+        margin-top: 10px;
+    }
+}
 
 @media (max-width: 1000px) {
     .header {
@@ -473,15 +500,6 @@ form label {
         align-items: center;
     }
 
-    .video {
-        margin-top: 30px;
-    }
-
-    .pluses_content {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .buy_it_now>div {
         flex-direction: column;
         align-items: center;
@@ -490,7 +508,7 @@ form label {
     .contacts>div {
         flex-direction: column;
         align-items: center;
-        width: 500px;
+        width: 100%;
     }
 }
 
@@ -517,6 +535,15 @@ form label {
         align-items: center;
     }
 
+    .article_image {
+        align-self: center;
+        margin-bottom: 10px;;
+    }
+
+    .article-content h3 {
+        text-align: center;
+    }
+
     .review_item {
         flex-direction: column;
         align-items: center;
@@ -529,6 +556,24 @@ form label {
     .pointer {
         top: -10px;
         left: 35px;
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .contacts input {
+        width: 100%;
+    }
+
+    .contacts textarea {
+        width: 100%;
+    }
+
+    .submit_reset input {
+        width: 100%;
+        margin-top: 10px;
     }
 }
 
