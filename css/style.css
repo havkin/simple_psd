@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: Socialico;
-    src: url(fonts/socialico.ttf);
-    src: url(fonts/socialico.woff);
+    src: url(../fonts/socialico.ttf);
+    src: url(../fonts/socialico.woff);
 }
 
 .container {
@@ -28,7 +28,7 @@
 }
 
 .header_content {
-    list-style-image: url(img/check_icon.png);
+    list-style-image: url(../img/check_icon.png);
     line-height: 30px;
     margin-left: 50px;
     margin-top: 50px;
@@ -255,7 +255,7 @@
 .standart {
     width: 300px;
     height: 306px;
-    background-image: url(img/bg_st.png);
+    background-image: url(../img/bg_st.png);
     margin: 0px 22px 30px;
 }
 
@@ -269,7 +269,7 @@
 .premium {
     width: 300px;
     height: 404px;
-    background-image: url(img/bg_pr.png);
+    background-image: url(../img/bg_pr.png);
     margin: 0px 22px 30px;
 }
 
@@ -283,7 +283,7 @@
 .lux {
     width: 300px;
     height: 499px;
-    background-image: url(img/bg_lx.png);
+    background-image: url(../img/bg_lx.png);
     margin: 0px 22px 30px;
 }
 
